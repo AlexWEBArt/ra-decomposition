@@ -39,7 +39,7 @@ export default function YandexPage() {
             title: '',
         },
         baner: {
-            href: '', 
+            href: 'https://alexwebart.github.io/ra-decomposition/', 
             src: '', 
             alt: '',
         },
@@ -47,7 +47,7 @@ export default function YandexPage() {
             {
                 type: 'wether',
                 title: 'Погода',
-                href: '', 
+                href: 'https://alexwebart.github.io/ra-decomposition/', 
                 url: '', 
                 temp: '', 
                 text: '',
@@ -57,19 +57,19 @@ export default function YandexPage() {
                 title: 'Посещаемое',
                 listLink: [
                     {
-                        href: '',
+                        href: 'https://alexwebart.github.io/ra-decomposition/',
                         bold: '',
-                        text: '',
+                        text: 'о сталинках',
                     },
                     {
-                        href: '',
+                        href: 'https://alexwebart.github.io/ra-decomposition/',
                         bold: '',
-                        text: '',
+                        text: 'люстры',
                     },
                     {
-                        href: '',
+                        href: 'https://alexwebart.github.io/ra-decomposition/',
                         bold: '',
-                        text: '',
+                        text: 'привод',
                     },
                 ], 
             },
@@ -78,7 +78,7 @@ export default function YandexPage() {
                 title: 'Карта Германии',
                 listLink: [
                     {
-                        href: '',
+                        href: 'https://alexwebart.github.io/ra-decomposition/',
                         text: '',
                     },
                 ], 
@@ -88,21 +88,21 @@ export default function YandexPage() {
                 title: 'Телепрограмма',
                 listLink: [
                     {
-                        href: '',
+                        href: 'https://alexwebart.github.io/ra-decomposition/',
                         time: '',
-                        program: '',
+                        program: 'ТНТ.Best',
                         chanel: '',
                     },
                     {
-                        href: '',
+                        href: 'https://alexwebart.github.io/ra-decomposition/',
                         time: '',
-                        program: '',
+                        program: 'Джунгли',
                         chanel: '',
                     },
                     {
-                        href: '',
+                        href: 'https://alexwebart.github.io/ra-decomposition/',
                         time: '',
-                        program: '',
+                        program: 'Наедине со всеми',
                         chanel: '',
                     },
                 ], 
@@ -112,21 +112,21 @@ export default function YandexPage() {
                 title: 'Эфир',
                 listLink: [
                     {
-                        href: '',
+                        href: 'https://alexwebart.github.io/ra-decomposition/',
                         icon: '',
-                        name: '',
+                        name: 'Управление',
                         category: '',
                     },
                     {
-                        href: '',
+                        href: 'https://alexwebart.github.io/ra-decomposition/',
                         icon: '',
-                        name: '',
+                        name: 'Ночь',
                         category: '',
                     },
                     {
-                        href: '',
+                        href: 'https://alexwebart.github.io/ra-decomposition/',
                         icon: '',
-                        name: '',
+                        name: 'Андрей',
                         category: '',
                     },
                 ], 
@@ -138,7 +138,7 @@ export default function YandexPage() {
         <>
             <div className="page-top">
                 <NewsBlocks {...data}>
-                    {data.news.map(item => <li key={item.title}><img src={item.favicon.src} alt={item.favicon.alt}/><a>{item.title}</a></li>)}
+                    {data.news.map(item => <li key={item.title}><img src={item.favicon.src} alt={item.favicon.alt}/><a href="https://alexwebart.github.io/ra-decomposition/">{item.title}</a></li>)}
                 </NewsBlocks>
                 <YandexAdvertising advertising={data.advertising}/>
             </div>

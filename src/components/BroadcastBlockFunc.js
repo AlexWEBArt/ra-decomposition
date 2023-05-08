@@ -18,7 +18,7 @@ export default function Broadcast(props) {
             <h5 className='info-title'>{title}</h5>
             <ul className="broadcast-list-links">
                 {listLink.map(item => 
-                    <li className="broadcast-item">
+                    <li className="broadcast-item" key={item.name}>
                         <a className="broadcast-link" href={item.href}>
                             <span className="broadcast-time">{item.icon}</span>
                             <span className="broadcast-program">{item.name}</span>
